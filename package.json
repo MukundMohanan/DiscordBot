@@ -1,0 +1,32 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "This is a friendly application which is against anyone who bully #mD. 😊🤞",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundMohanan/discordbot.git"
+  },
+  "keywords": [
+    "discordbot",
+    "bot",
+    "discord"
+  ],
+  "author": "Mukund - MJ_007",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MukundMohanan/discordbot/issues"
+  },
+  "homepage": "https://github.com/MukundMohanan/discordbot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0"
+  }
+}
