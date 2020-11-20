@@ -6,7 +6,7 @@ const client = new Client();
 client.login(process.env.BOT_TOKEN);
 
 module.exports = (message) => {
-    client.fetchInvite('https://discord.gg/v7H4eHkRUx')
+    client.fetchInvite('https://discord.gg/EmNtRGBMNp')
         .then(invite => message.channel.send(`https://discord.gg/${invite.code}`))
         .catch(console.error);
 }
