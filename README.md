@@ -1,5 +1,9 @@
 # Discord Bot
 
+
+## TODO: Handle warning
+* unhandled promise rejection warning: DiscordAPIError : Target user is not connected to voice
+
 ## Commands
 * md - Friendly command to compliment my friend
 * !invite - Respond with invite link
